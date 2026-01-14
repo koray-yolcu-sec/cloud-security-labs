@@ -23,7 +23,7 @@ Each lab includes:
 - ✅ [Lab 0 – Linux Server Basics & Initial Security Awareness](./lab-0-linux-basics)  
   *Beginner | Linux, sudo, SSH awareness*
 
-- ⏳ Lab 1 – SSH Hardening & Access Control  
+- ✅ [Lab 1 – SSH Hardening & Secure Access Control](./lab-1-ssh-hardening)
   *Beginner | sshd_config, keys, attack surface*
 
 
