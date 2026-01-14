@@ -22,7 +22,7 @@ Each lab includes:
 
 ## Labs
 
-### Lab 0 – Linux Server Basics & Initial Security Awareness
+### [Lab 0 – Linux Server Basics & Initial Security Awareness](./lab-0-linux-basics)
 Foundational lab covering Linux server fundamentals, user privileges, SSH awareness, and basic security concepts.  
 Status: ✅ Completed
 
