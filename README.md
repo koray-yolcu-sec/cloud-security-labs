@@ -1,17 +1,15 @@
-# cloud-security-labs
+# Cloud Security Labs
 
-Hands-on cloud and Linux security labs focused on secure server configuration, IAM, and cloud fundamentals.
+Hands-on labs focused on Linux, cloud security fundamentals, and secure system configuration.  
+This repository documents my learning path toward becoming a **Cloud Security Engineer**.
+
+**Focus areas:** Linux • SSH • IAM • Networking • Logging • Cloud Fundamentals
+
 
 ## Purpose
 This repository documents my hands-on learning journey in cloud and infrastructure security.
 The goal is to understand how cloud systems work, identify common security risks, and apply secure configurations through practical labs.
 
-## Focus Areas
-- Linux server management and basic hardening
-- Cloud fundamentals (AWS)
-- Identity and Access Management (IAM)
-- Networking and security basics
-- Misconfigurations and security best practices
 
 ## Lab Structure
 Each lab includes:
@@ -19,16 +17,15 @@ Each lab includes:
 - Steps performed
 - Security risks identified
 - Mitigation and lessons learned
+  
+  ## Labs
+  
+- ✅ [Lab 0 – Linux Server Basics & Initial Security Awareness](./lab-0-linux-basics)  
+  *Beginner | Linux, sudo, SSH awareness*
 
-## Labs
+- ⏳ Lab 1 – SSH Hardening & Access Control  
+  *Beginner | sshd_config, keys, attack surface*
 
-### [Lab 0 – Linux Server Basics & Initial Security Awareness](./lab-0-linux-basics)
-Foundational lab covering Linux server fundamentals, user privileges, SSH awareness, and basic security concepts.  
-Status: ✅ Completed
-
-### Lab 1 – SSH Hardening & Access Control
-Hardening SSH access and reducing attack surface on a Linux server.  
-Status: ⏳ Upcoming
 
 
 ## Notes
