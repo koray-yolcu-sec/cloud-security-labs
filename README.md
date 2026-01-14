@@ -21,7 +21,15 @@ Each lab includes:
 - Mitigation and lessons learned
 
 ## Labs
-- Lab 0: Linux Server Basics & User Management *(in progress)*
+
+### Lab 0 – Linux Server Basics & Initial Security Awareness
+Foundational lab covering Linux server fundamentals, user privileges, SSH awareness, and basic security concepts.  
+Status: ✅ Completed
+
+### Lab 1 – SSH Hardening & Access Control
+Hardening SSH access and reducing attack surface on a Linux server.  
+Status: ⏳ Upcoming
+
 
 ## Notes
 This repository is continuously updated as I progress through my cloud security learning path.
