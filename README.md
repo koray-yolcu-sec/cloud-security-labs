@@ -1,32 +1,61 @@
 # Cloud Security Labs
 
-Hands-on labs focused on Linux, cloud security fundamentals, and secure system configuration.  
-This repository documents my learning path toward becoming a **Cloud Security Engineer**.
+Hands-on cloud and Linux security labs focused on secure server configuration, access control, and cloud security fundamentals.
 
-**Focus areas:** Linux • SSH • IAM • Networking • Logging • Cloud Fundamentals
+This repository documents my practical learning journey in cloud and infrastructure security through real system hardening exercises.
 
+---
 
 ## Purpose
-This repository documents my hands-on learning journey in cloud and infrastructure security.
-The goal is to understand how cloud systems work, identify common security risks, and apply secure configurations through practical labs.
 
+The goal of this repository is to:
 
-## Lab Structure
-Each lab includes:
-- Objective
-- Steps performed
-- Security risks identified
-- Mitigation and lessons learned
-  
-## Labs
-  
-- ✅ [Lab 0 – Linux Server Basics & Initial Security Awareness](./lab-0-linux-basics)  
-  *Beginner | Linux, sudo, SSH awareness*
+- Build strong Linux and cloud security fundamentals
+- Understand common infrastructure attack vectors
+- Apply security best practices through hands-on labs
+- Create a documented security learning portfolio
 
-- ✅ [Lab 1 – SSH Hardening & Secure Access Control](./lab-1-ssh-hardening)
-  *Beginner | sshd_config, keys, attack surface*
+---
 
+## Focus Areas
 
+- Linux server hardening
+- Secure remote access (SSH)
+- Identity and access control
+- Networking and firewall fundamentals
+- Cloud security foundations (AWS-focused)
+- Misconfiguration awareness and mitigation
 
-## Notes
-This repository is continuously updated as I progress through my cloud security learning path.
+---
+
+## Lab Index
+
+| Lab | Title | Focus |
+|----|------|------|
+| Lab 0 | [Linux Server Basics & User Management](./lab-0-linux-basics) | Users, permissions, service awareness |
+| Lab 1 | [SSH Hardening & Secure Access Control](./lab-1-ssh-hardening) | SSH security, key-based auth |
+
+> Each lab includes documentation, security rationale, and verification steps.
+
+---
+
+## Learning Approach
+
+- Labs are intentionally small and focused
+- Security decisions are explained, not just applied
+- Verification steps are always included to confirm correctness
+- Emphasis is placed on **why** a configuration matters
+
+---
+
+## Disclaimer
+
+This repository is for educational purposes only.  
+All configurations were performed in isolated lab environments.
+
+---
+
+## Status
+
+🟢 Actively maintained  
+Next planned topics include firewall configuration and cloud network security.
