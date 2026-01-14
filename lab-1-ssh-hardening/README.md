@@ -25,9 +25,14 @@ The following risks were addressed in this lab:
 
 ---
 
-### SSH Hardening Configuration
+## SSH Hardening Configuration
 
-The final SSH daemon configuration applied during this lab is shown below:
+The following SSH configuration changes were applied to reduce the attack surface:
+
+- Root login was disabled to prevent direct privileged access
+- Password authentication was disabled to mitigate brute-force attacks
+- SSH port was changed from default to reduce automated scans
+- Authentication attempts were limited
 
 ```text
 PermitRootLogin no
@@ -36,6 +41,33 @@ PubkeyAuthentication yes
 Port 2222
 MaxAuthTries 3
 ```
+---
+
+## Key-Based Authentication Setup
+Generate SSH key
+- ssh-keygen -t ed25519 -C "lab-1-ssh-key"
+
+Configure authorized keys
+- mkdir -p ~/.ssh
+- cat ~/.ssh/id_ed25519.pub >> ~/.ssh/authorized_keys
+- chmod 700 ~/.ssh
+- chmod 600 ~/.ssh/authorized_keys
+
+Restart SSH
+- sudo systemctl restart ssh
+
+---
+
+## Verification
+
+The active SSH configuration was verified using the following command:
+
+- sudo sshd -T | egrep 'permitrootlogin|passwordauthentication|pubkeyauthentication|port|maxauthtries'
+
+A passwordless SSH login was successfully tested:
+
+- ssh -p 2222 cloudsec@localhost
+
 ---
 
 ## Lessons Learned
