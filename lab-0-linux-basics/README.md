@@ -1,19 +1,20 @@
-# Lab 0 - Linux Server Basics & User Management
+# Lab 0 – Linux Server Basics & Initial Security Awareness
 
 ## Objective
-Set up a basic Linux server environment and understand user management and access control.
+Understand the fundamentals of a Linux server environment, focusing on user management, privilege separation, and initial security awareness.
 
 ## Steps Performed
-- Created a non-root user
-- Configured sudo privileges
-- Checked SSH service status
-- Reviewed authentication logs
-- Understood service management concepts (start / enable)
+- Verified usage of a non-root user for daily operations
+- Configured sudo privileges for controlled administrative access
+- Checked SSH service status and default behavior
+- Reviewed authentication logs to understand login and sudo activity
+- Explored basic service management concepts (`start`, `enable`, `status`)
 
-## Notes
-- Kali Linux was used for initial system exploration
-- Firewall configuration was skipped due to Kali-specific limitations
-- Future labs will use Ubuntu Server or cloud-based environments 
+## Security Notes
+- Using a non-root user reduces the impact of potential privilege abuse
+- Awareness of SSH service state is essential before exposing a system to a network
+- Authentication logs provide visibility into access-related events
+- Understanding service management is critical for secure system administration
 
 ## Status
-Completed
+✅ Completed
