@@ -18,7 +18,7 @@ Each lab includes:
 - Security risks identified
 - Mitigation and lessons learned
   
-  ## Labs
+## Labs
   
 - ✅ [Lab 0 – Linux Server Basics & Initial Security Awareness](./lab-0-linux-basics)  
   *Beginner | Linux, sudo, SSH awareness*
