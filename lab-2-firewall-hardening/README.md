@@ -115,3 +115,19 @@ Network ACLs are stateless and process rules in numerical order, requiring expli
 
 For most application-level access control scenarios, Security Groups provide simpler management and lower operational risk compared to Network ACLs.
 
+---
+
+## Stateful Firewall Behavior (Important Note)
+
+During testing, outbound HTTPS traffic initially failed despite an OUTPUT ACCEPT policy.
+This occurred because return traffic was blocked by the default INPUT DROP rule.
+
+The issue was resolved by explicitly allowing ESTABLISHED and RELATED connections:
+
+```bash
+sudo iptables -I INPUT 1 -m state --state ESTABLISHED,RELATED -j ACCEPT
+```
+
+This highlights the importance of stateful firewall rules when implementing a default-deny network policy.
+
+
