@@ -27,7 +27,6 @@ The goal of this repository is to:
 - Misconfiguration awareness and mitigation
 
 ---
-
 ## Lab Index
 
 | Lab | Title | Focus |
@@ -35,6 +34,9 @@ The goal of this repository is to:
 | Lab 0 | [Linux Server Basics & User Management](./lab-0-linux-basics) | Users, permissions, service awareness |
 | Lab 1 | [SSH Hardening & Secure Access Control](./lab-1-ssh-hardening) | SSH security, key-based auth |
 | Lab 2 | [Firewall & Network Hardening](./lab-2-firewall-hardening/README.md) | iptables, default-deny networking |
+| Lab 3 | [SSH Brute-Force Defense with Fail2Ban](./lab-3-bruteforce-defense-fail2ban/README.md) | Fail2Ban, SSH brute-force |
+
+
 
 > Each lab includes documentation, security rationale, and verification steps.
 
