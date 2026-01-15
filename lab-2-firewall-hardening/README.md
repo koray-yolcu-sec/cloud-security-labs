@@ -81,6 +81,8 @@ nc -zv localhost 2222
 ```
 Result: open
 
+---
+
 ## Security Consideration: Public Exposure (0.0.0.0/0)
 
 Allowing access from `0.0.0.0/0` exposes services to the public internet and significantly increases attack surface.
@@ -92,6 +94,8 @@ While this configuration is acceptable for learning and testing environments, pr
 
 This lab uses open access solely for demonstration purposes.
 
+---
+
 ### Lessons Learned
 
 A default-allow firewall is a security risk
@@ -99,6 +103,8 @@ A default-allow firewall is a security risk
 Minimal exposure significantly reduces attack surface
 
 Firewall rules must align with service hardening
+
+---
 
 ## Cloud Perspective: Security Groups vs Network ACLs
 
