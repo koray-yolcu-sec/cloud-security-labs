@@ -34,6 +34,7 @@ The goal of this repository is to:
 |----|------|------|
 | Lab 0 | [Linux Server Basics & User Management](./lab-0-linux-basics) | Users, permissions, service awareness |
 | Lab 1 | [SSH Hardening & Secure Access Control](./lab-1-ssh-hardening) | SSH security, key-based auth |
+| Lab 2 | [Firewall & Network Hardening](./lab-2-firewall-hardening/README.md) | iptables, default-deny networking |
 
 > Each lab includes documentation, security rationale, and verification steps.
 
