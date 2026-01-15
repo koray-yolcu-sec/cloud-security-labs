@@ -81,6 +81,17 @@ nc -zv localhost 2222
 ```
 Result: open
 
+## Security Consideration: Public Exposure (0.0.0.0/0)
+
+Allowing access from `0.0.0.0/0` exposes services to the public internet and significantly increases attack surface.
+
+While this configuration is acceptable for learning and testing environments, production systems should restrict access to:
+- Corporate VPN IP ranges
+- Bastion hosts
+- Trusted CIDR blocks only
+
+This lab uses open access solely for demonstration purposes.
+
 ### Lessons Learned
 
 A default-allow firewall is a security risk
@@ -88,3 +99,13 @@ A default-allow firewall is a security risk
 Minimal exposure significantly reduces attack surface
 
 Firewall rules must align with service hardening
+
+## Cloud Perspective: Security Groups vs Network ACLs
+
+In AWS environments, Security Groups and Network ACLs serve different purposes.
+
+Security Groups are stateful and evaluate all rules collectively, making them suitable for instance-level access control.
+Network ACLs are stateless and process rules in numerical order, requiring explicit allow and deny rules.
+
+For most application-level access control scenarios, Security Groups provide simpler management and lower operational risk compared to Network ACLs.
+
