@@ -39,6 +39,8 @@ The goal of this repository is to:
 | Lab 5 | [AWS EC2 Hardening](./lab-5-aws-ec2-hardening) | EC2, SSH hardening, least privilege |
 | Lab 6 | [IAM Basics & Least Privilege](./lab-6-iam-least-privilege) | IAM users, groups, custom policies, access control |
 | Lab 7 | [End-to-End Cloud Security Scenario](./lab-7-end-to-end-cloud-security) | End-to-end cloud security, IAM, SSH, logs |
+| Lab 8 | [CloudTrail Incident Investigation](./lab-8-cloudtrail-incident-investigation) | CloudTrail, IAM access, incident analysis|
+
 
 
 
@@ -69,5 +71,11 @@ All configurations were performed in isolated lab environments.
 
 ## Status
 
-🟢 Actively maintained  
-Next planned topics include firewall configuration and cloud network security.
+🟢 Actively maintained
+
+Recently added:
+- CloudTrail incident investigation for IAM programmatic access
+
+Planned next labs:
+- GuardDuty threat detection
+- IAM credential compromise scenarios
